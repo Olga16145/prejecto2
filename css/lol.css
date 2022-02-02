@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.wrapper{
+box-shadow: 0 0 12px rgba(0, 0, 0, 0.8);
+margin: 0 auto;
+max-width: 1440px;
+width: 100%;
+}
+
+
+
+section{
+    background-attachment: fixed;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    height: 1100px;
+    margin: 0 auto;
+    max-width: 1440px;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+
+#bloque1{
+    background-image: url(../img/ii.jpg);
+}
+
+#bloque2{
+    background-image: url(../img/jm.png);
+}
+
+#bloque3{
+    background-image: url(../img/bases.jpg);
+}
+
+#bloque4{
+    background-image: url(../img/jj.jpg);
+}
+
+.datos{
+    width:90%;
+    max-width: 1900px;
+margin: auto;
+overflow: hidden;
+box-shadow: 0 0 0 10px #efc075,
+             0 15px 50px;
+   position: relative;   
+    width: 95;
+    
+   margin: auto;
+  }
+
+  .datos ul{
+    
+    padding: 0;
+    display: flex;
+    width: 400%;
+    animation: cambio 20s infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+    text-align: center;
+    
+             
+    
+  }
+
+  .datos li{
+    width: 100%;
+    list-style: none;
+    display: block;
+  }
+
+  .datos img{
+    width: 50%;
+    
+  }
+
+  @keyframes cambio{
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+    25%{margin-left: -100%}
+    45%{margin-left: -100%}
+    50%{margin-left: -200%}
+    70%{margin-left: -200%}
+    75%{margin-left: -300%}
+    
+  }
